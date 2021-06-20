@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image: url(https://thumbs.gfycat.com/AlertMerryFugu-size_restricted.gif);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: verdana, san-serif;
+	margin: 10;
+}
+h1,p{
+	text-align: center;
+	text-transform: 0.5;
+	color: red;
+	border: 1px solid black;
+}
+h1:hover{
+	color: green;
+	font-size: 40px;
+	overflow-x:5px; 
+	border: none;
+	box-shadow: 0 0 5px 2px rgba(0,120,190,0.5); 
+	text-align: left;
+}
+p:hover{
+	border: 2px;
+	width: 50%;
+	margin-left: 50%;
+}
+img{
+	cursor: pointer;
+	opacity: 0.3s;
+	size: 50px;
+	margin: 3px;
+	width: 100%
+
+	width: 250px;
+	height: 150px;
+}
+img:hover{
+	opacity: 0.7;
+box-shadow: 0 0 12px 11px rgb(0, 140, 186);}
+#img1:hover{
+	border: 2px solid #000;
+	padding: 4px;	
+}
+#img2{
+	border-radius: 25px;
+	box-shadow: 5px #000;
+}
+#img2:hover{
+	border-radius: 50%;
+}
+
+.container{
+width: 24%;
+box-shadow: 0 0 2px 4px rgba(45,52,45,0.6);
+margin: 50px;
+padding: 3px 3px;
+
+}
+.pic{
+	text-align: center;
+	padding: 10px;
+}
+.slide{
+	position: relative;
+	margin-bottom: 220px;
+}
+.topleft{
+	top: 10px;
+	margin-left: 16px;
+	position: absolute;
+}
+.topleft:hover{
+	top: 10px;
+	right: 16px;
+	position: absolute;
+	text-transform: lowercase;
+		margin-bottom: 20px;
+
+}
+
+.slide:hover{
+	text-transform: uppercase;
+	position: absolute;
+}
+.filter:hover{
+	box-shadow: none;
+}
+#edit{
+	filter: blur(4px);
+}
+#blur{
+	filter: brightness(250%);
+}
+#con{
+	filter: contrast(180%);
+}
+#gray{
+	filter: grayscale(100%);
+}
+#hue{
+	filter: hue-rotate(150deg);
+}
+#spe{
+	filter: sepia(120%);
+}
+#in{
+	filter: invert(100%);
+		-webkit-box-reflect: below;
+
+}
+#in:hover{
+	transform: scale(-1);
+}
+.avatar{
+	-webkit-box-reflect: below;
+	
+}
+.button{
+	background-color: #4CAF50;
+	border: none;
+	font-size: 16px;
+	text-align: center;
+	margin: 12px 12px;
+	cursor: pointer;
+	padding: 15px 32px;
+	color: white;
+	transition-duration: 0.4s;
+	-webkit-transition-duration:0.4s;
+}
+.button1{
+	box-shadow: 0  8px 16px 0 rgba(0,0,0,0.2),0  6px 18px 0 rgba(0,0,0,0.2);
+}
+.button1:active{
+	background-color:#4CAF50;
+	box-shadow: 0 5px #6e6;
+	transform: translateY(4px); 
+}
+.button2:hover{
+	box-shadow: 0  8px 16px 0 rgba(0,0,0,0.2),0  6px 18px 0 rgba(0,0,0,0.2);
+}
+.button2:active{
+	background-color:#4CAF50;
+	box-shadow: 0 5px #6e6;
+	transform: translateY(4px); 
+}
