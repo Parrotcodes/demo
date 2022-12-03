@@ -239,3 +239,17 @@ textarea
 button
 
 //HTML Input Types
+text 
+password
+submit
+email
+date
+datetime
+checkbox
+radio
+file
+number
+range
+month
+week
+
