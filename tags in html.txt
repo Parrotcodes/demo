@@ -1,0 +1,241 @@
+
+---*** All types of Tages in HTML ***---
+	
+p
+em title
+mark
+abbr
+address
+br
+hr
+strong
+b
+u
+i
+q
+sub
+sup
+marquee
+code
+meta --> essential info about webpage and properties
+comments
+img
+table  -- tr th td caption
+	-- colspan & rowspan 	for merge cells
+	--border,bgcolor
+Lists
+	-- Ol,Ul,dl -->type="" and start="5" etc.
+		--li
+		--dt,dd
+text links,img links
+	-- a
+	-- target to open links
+		-- _self,_blank,_parent
+	-- link,alink,vlink
+Email link
+	href="mailto:abcd@gmail.com">
+iFrames
+	-- webpage inside another webpage
+	syntax:
+		<iframe src="about.html"></iframe>
+Blocks and inline elements
+	-- div
+background attribute
+	-- background-img:url();
+	-- background-size:cover;
+	--background-color (rgb,hashcode(hex),hsl,rgba,name)
+fonts
+	-- font-family:
+	-- font-size:
+	-- color:
+forms
+	<form>
+		<input type="text/radio/file/password/submit">//
+		<textarea rows="" cols="" > </textarea>
+	 </form>
+	-- required
+
+-----****-----
+
+//mini project -1 (signup/login form done!)
+
+-----****-----
+embed multi-media
+	-- embed src=""
+	-- video src="" controls,autoplay,muted and size
+	-- audio src=""
+article
+
+header
+nav
+content
+footer
+
+
+//CSS
+style
+	-- inline
+	-- internal
+	-- external
+//JS
+	-- inline
+	-- internal
+	-- external
+alert
+mouseevents
+functions
+
+//back to HTML 
+layout	-- using table tag (tr,td)
+div	-- layout height,width,float,nested div tag
+attributes
+	--id
+	--class
+
+-----****-----
+
+//mini project -2 (Create Job Application form)
+
+input form = text,email,date,file,submit,number
+address --placeholder
+select & option tags together
+
+-----****-----
+
+Image Responsive
+	--width:100%
+	--height:auto
+	--min-width
+	--max-width
+
+Video Responsive
+	--width:100%
+	--height:auto
+	--min-width
+
+Text Responsive
+	--font-size:5vw
+
+Media Queries(adjusting size mobile and windows)
+	- @media(max-width:300px){
+		#p1{
+		display:block;
+			}
+		}
+	-- min-width,max-width and also combine both((min-w) and (max-w))
+	- only screen and(antoher type media query)
+
+computer code elemetns
+	- code tag
+	- kbd tag/ele
+	- samp
+	- var
+	- pre (fixed width no break is needed)
+semantic tags
+	-- id = "nav" -> non-semantic tag
+	-- <nav></nav> -> semantic tag
+--- !important ---(jquary effect like bullets info expand)
+	- details tag
+		-- summary
+		-- p,h1 etc.
+
+	
+
+
+
+//websites and apps
+
+keynote editor
+submarinecablemap
+codeply
+cssbuttongenerator
+cloudfare.com/network
+
+//wireframing
+ui-patterns
+dribbble
+sneakpeekit
+balsamiq.cloud
+
+---**Bootstrap Site**---
+
+//grip layout
+airbnb.co.uk
+
+//container
+loremipsumgenerator.com
+
+//font icons
+fontawesome
+
+//for rotation and css codes etc.
+developer.mozilla.org -- MDN link
+codepen.io
+
+HTML Entities
+<code>
+&lt - <
+&quot; - 
+&gt - >
+&amp; - &
+&apos; - :
+&copy;	- c
+&reg -	R
+&pound;
+&cent - 
+&ocrp;
+</code>
+
+//Symbols and Emojis
+&#65 - A
+&#812512; - 
+
+//charset using ASIC Code
+
+Numbers
+&#48; - 0;
+&#49; - 1;
+&#50; - 2;
+
+Letters
+&#65; - A
+&#97; - a
+
+symbols
+&#8704; etc.
+
+//URL Encoding
+post
+get 
+
+//Deprecated tags
+applet
+center
+font
+menu
+strike
+del
+u
+br
+
+//HTML Form attr
+style tag for styling 
+form tag for forms
+<form>
+	-- action
+	-- target(top,blank,parent,self)
+	--method(get,post)
+	-- autocomplete(on,off)
+	-- novalidate
+
+//Form Elements
+->fieldset
+-- >legend
+lable
+input
+select
+option
+textarea
+button
+
+//HTML Input Types
